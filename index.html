@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website - Himaan</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Himaan</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#info" class="nav__link">My Info</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                </ul>
+
+                <!-- Close Button -->
+                 <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+            </div>
+
+            <!-- Toggle Button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>    
+            </div> 
+        </nav>
+         
+      </header>
+      
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/LinkedIn-Photoroom-removebg-preview.png" alt="image" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__name">Himaanshu<br>Sharma</h1>
+                    <h3 class="home__profession">Web Developer & Data Analyst</h3>
+                </div>
+
+                <a href="#work" class="home__scroll">
+                    <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+
+                    <span class="home__scroll-text">Recent Works</span>
+                </a>
+            </div>
+         </section>
+
+         <!--==================== WORKS ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+
+            <div class="work__container comtainer grid">
+                <article class="work__card">
+                    <a href="https://freshfeast.netlify.app" target="_blank" class="work__link">
+                        <h2 class="work__title">Restaurant Website</h2>
+                        <p class="work__description">
+                            A restaurant website.
+                        </p>
+
+                        <img src="assets/img/FreshFeast.png" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="work__card">
+                    <a href="https://himaan1502.github.io/Weather_Application" target="_blank" class="work__link">
+                        <h2 class="work__title">Weather Application</h2>
+                        <p class="work__description">
+                            A basic Weather App using Open Weather API.
+                        </p>
+
+                        <img src="assets/img/Weather.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="work__card">
+                    <a href="https://himaan1502.github.io/Image_Search_Engine" target="_blank" class="work__link">
+                        <h2 class="work__title">Image Search</h2>
+                        <p class="work__description">
+                            An image search engine using the Unsplash API.
+                        </p>
+
+                        <img src="assets/img/Image Search.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="work__card">
+                    <a href="https://github.com/Himaan1502/Financial_News_Sentiment_Analysis" target="_blank" class="work__link">
+                        <h2 class="work__title">Financial News Sentiment Analysis</h2>
+                        <p class="work__description">
+                            Python script leverages web scraping techniques and performs sentiment analysis.
+                        </p>
+
+                        <img src="assets/img/sentiment.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="work__card">
+                    <a href="https://github.com/Himaan1502/Stock_Prediction_using_ARIMA" target="_blank" class="work__link">
+                        <h2 class="work__title">Stock Prediction</h2>
+                        <p class="work__description">
+                            Python code for predicting stock price movements using machine learning techniques.
+                        </p>
+
+                        <img src="assets/img/stock prediction.jpg" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+
+
+         </section>
+
+         <!--==================== INFO ====================-->
+         <section class="info section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+
+            <div class="info__container container grid">
+                <!-- ABOUT -->
+                <div class="about grid">
+                    <div class="about__content">
+                        <h3 class="info__title">About Me</h3>
+                        <p class="about__description">
+                            Passionate about creating <b>websites with beautiful interfaces</b>.
+                            I have years of experience in  <b>Web Development</b> with several 
+                            projects completed.
+                        </p>
+
+                        <a href="assets/pdf/Himaanshu Sharma Resume.pdf" download="" target="_blank" class="button about__button">Download CV</a>
+                    </div>
+
+                    <img src="assets/img/" alt="" class="about__img">
+                </div>
+
+                <!-- Experience -->
+                <div class="experience">
+                    <h3 class="info__title">Experience</h3>
+
+                    <div class="experience__content grid">
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">MedTourEasy</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Data Analyst Intern</h3>
+                                <span class="experience__date">07/24 - 08/24</span>
+                                <p class="exerience__description">
+                                    As a Data Analyst Intern, I utilized MS-Excel, MySQL, Tableau, Python, and R Programming to collect, process, and analyze large datasets. 
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">Unified Mentor</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Web Development Intern</h3>
+                                <span class="experience__date">06/24 - 07/24</span>
+                                <p class="exerience__description">
+                                    As a Web Development Intern, I utilized Angular & Firebase to develop websites. 
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">CodeClause</h2>
+
+                            <div>
+                                <h3 class="experience__profession">Web Development Intern</h3>
+                                <span class="experience__date">04/23 - 05/23</span>
+                                <p class="exerience__description">
+                                    As a Web Development Intern, I utilized HTML, CSS, JavaScript & React.js to develop websites. 
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SKILLS -->
+                <div class="skills">
+                    <h3 class="info__title">Skills</h3>
+
+                    <div class="skills__content grid">
+                        <div class="skills__box">
+                            <img src="assets/img/info-html.svg" alt="image" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-css.svg" alt="image" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-javascript.svg" alt="image" class="skills__img">
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-react.svg" alt="image" class="skills__img">
+                            <span class="skills__name">React.js</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/nodejs.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Node.js</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/expressjs.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Express.js</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-git.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Git</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-github.svg" alt="image" class="skills__img">
+                            <span class="skills__name">GitHub</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-tailwind-css.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Tailwind CSS</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-sass.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Sass</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/info-figma.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Figma</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/java.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Java</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/python-5.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Python</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/excel-4.svg" alt="image" class="skills__img">
+                            <span class="skills__name">MS-Excel</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/tableau-software.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Tableau</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/aws.svg" alt="image" class="skills__img">
+                            <span class="skills__name">AWS</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/docker.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Docker</span>
+                        </div>
+
+                        <div class="skills__box">
+                            <img src="assets/img/kubernetes.svg" alt="image" class="skills__img">
+                            <span class="skills__name">Kubernetes</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+            <h2 class="section__title">SERVICES</h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-code-box-line services__icon"></i>
+
+                    <h3 class="services__title">Web Development</h3>
+                    <p class="services__description">
+                        Personalized web development services tailored to your specific needs, 
+                        ensuring a unique and professional online presence.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pencil-ruler-2-line services__icon"></i>
+
+                    <h3 class="services__title">Responsive Web Design</h3>
+                    <p class="services__description">
+                        Personalized responsive web design services, ensuring your website looks
+                        great and functions perfectly on any device.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-seo-line services__icon"></i>
+
+                    <h3 class="services__title">SEO (Web Pages)</h3>
+                    <p class="services__description">
+                        Provide SEO optimization to improve your web pages' visibility and ranking
+                        on search engines, driving more organic traffic to your site.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pie-chart-2-line services__icon"></i>
+
+                    <h3 class="services__title">Data Analytics</h3>
+                    <p class="services__description">
+                        Personalized data analytics services to help you gain insights from your data,
+                        driving informed decision-making and business growth.
+                    </p>
+                </article>
+            </div>
+
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="user_name" placeholder="Name" required class="contact__input">
+                        <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                    </div>
+
+                    <textarea name="user_message" placeholder="Message" required class="contact__input contact__area"></textarea>
+
+                    <button type="submit" class="button contact__button">Send Message</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <div class="contact__social grid">
+                    <a href="https://www.linkedin.com/in/himaanshu-sharma-4637b7138" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://github.com/Himaan1502" target="_blank" class="contact__social-link">
+                        <i class="ri-github-line"></i>
+                        <span>GitHub</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/himaan.shrma" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+
+                <li>
+                    <a href="#info" class="footer__link">Info</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Himaan
+            </span>
+        </div>
+
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
