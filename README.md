@@ -16,7 +16,7 @@ Welcome to Himaan's responsive portfolio website. This site showcases the works 
 
 ## Demo
 
-You can view a live demo of the website [here]([https://himaan.netlify.app]).
+You can view a live demo of the website [[here](https://himaan.netlify.app/#)].
 
 ## Features
 
